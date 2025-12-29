@@ -25,6 +25,11 @@
     <div class="container navbar">
       <div class="logo">Breno</div>
 
+      <!-- Botão menu hamburguer -->
+      <button class="menu-toggle" aria-label="Abrir menu">
+        <i class="fas fa-bars"></i>
+      </button>
+
       <nav>
         <ul class="nav-links">
           <li><a href="#inicio">Início</a></li>
@@ -273,11 +278,19 @@
         <a href="/assets/curriculo.pdf" download class="download-btn" aria-label="Baixar currículo" title="Baixar CV">
           <i class="fas fa-download"></i> Currículo
         </a>
-
-
       </div>
     </div>
   </footer>
+
+  <!-- JS MENU HAMBURGUER -->
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
 
 </body>
 
