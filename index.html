@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Breno | Portfólio</title>
+
+  <!-- Fonte: Plus Jakarta Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Ícones (Font Awesome) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <header>
+    <div class="container navbar">
+      <div class="logo">Breno</div>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#skills">Competências técnicas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="container hero-content">
+
+      <!-- TEXTO -->
+      <div class="hero-text">
+        <h1>Olá, eu me chamo <span>Breno</span></h1>
+
+        <h2>
+          Desenvolvedor <span>Backend</span> | Web & Mobile
+        </h2>
+
+        <p>
+          Sou recém-formado pelo IFPR e desenvolvedor em início de carreira, com foco
+          principal em backend e lógica de negócio. Gosto de resolver problemas e criar
+          soluções eficientes, mantendo abertura para aprender e atuar em áreas como
+          frontend e banco de dados.
+        </p>
+
+        <!-- AÇÕES (SOMENTE ÍCONES) -->
+        <div class="hero-actions">
+          <div class="social-links">
+            <a href="https://github.com/brenofk" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
+              title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
+              title="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- IMAGEM -->
+      <div class="hero-image">
+        <img src="img/breno.jpg" alt="Foto de Breno" />
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PORTFÓLIO -->
+  <section id="portfolio">
+    <div class="container">
+
+      <h2>Portfólio</h2>
+
+      <!-- PROJETO FRONTEND -->
+      <div class="portfolio-item">
+        <h3>Projeto Acadêmico – Frontend</h3>
+
+        <p>
+          Projeto acadêmico desenvolvido durante a graduação, inicialmente focado
+          na refatoração do frontend de um site de música. O frontend foi desenvolvido
+          com HTML e CSS, e foram adicionadas funcionalidades interativas utilizando
+          JavaScript, que não estavam presentes no código original, como ações de
+          clique em botões, reprodução de músicas no próprio site e cards animados
+          de artistas.
+        </p>
+
+        <div class="tech-icons">
+          <i class="fa-brands fa-html5" title="HTML5"></i>
+          <i class="fa-brands fa-css3-alt" title="CSS3"></i>
+          <i class="fa-brands fa-js" title="JavaScript"></i>
+        </div>
+      </div>
+
+      <!-- PROJETO BACKEND -->
+      <div class="portfolio-item">
+        <h3>Projeto Acadêmico – Backend</h3>
+
+        <p>
+          Em um segundo momento, foi desenvolvido o backend da aplicação utilizando
+          Python, linguagem definida na disciplina. O sistema passou a contar com
+          cadastro e autenticação de usuários utilizando o framework Django, além de
+          funcionalidades completas de CRUD para playlists e músicas. Os dados foram
+          persistidos em banco de dados MySQL.
+        </p>
+
+        <div class="tech-icons">
+          <i class="fa-brands fa-python" title="Python"></i>
+          <i class="fa-brands fa-django" title="Django"></i>
+          <i class="fa-solid fa-database" title="MySQL / Workbench"></i>
+          <i class="fa-solid fa-vial" title="Insomnia"></i>
+        </div>
+      </div>
+
+      <!-- PROJETO TCC -->
+      <div class="portfolio-item">
+        <h3>Projeto de TCC – Aplicativo Mobile para Gerenciamento de Pets</h3>
+
+        <p>
+          Aplicativo mobile desenvolvido como Trabalho de Conclusão de Curso, com foco
+          em dispositivos móveis, voltado ao gerenciamento de vacinas e medicamentos
+          de animais domésticos. A aplicação permite cadastro e autenticação de usuários,
+          gerenciamento de pets e controle completo de vacinas associadas a cada animal.
+        </p>
+
+        <p>
+          O sistema oferece funcionalidades como criação de conta, login, cadastro de
+          pets e associação de vacinas por animal, com interface projetada a partir de
+          princípios de usabilidade para facilitar a experiência do usuário.
+        </p>
+
+        <ul class="portfolio-list">
+          <li>Autenticação de usuários</li>
+          <li>CRUD completo de usuários, pets e vacinas</li>
+          <li>Associação de vacinas por pet</li>
+          <li>Foco em usabilidade e experiência do usuário</li>
+        </ul>
+
+        <p>
+          O projeto contou com levantamento de requisitos funcionais e não funcionais,
+          diagramas de caso de uso e documentação técnica completa.
+        </p>
+
+        <p>
+          Como resultado, o sistema funcionou corretamente em ambiente web. No ambiente
+          mobile (Expo Go), houve uma limitação relacionada à configuração de rede,
+          documentada como ponto de melhoria futura.
+        </p>
+
+        <div class="tech-icons">
+          <i class="fa-brands fa-react" title="React Native / Expo"></i>
+          <i class="fa-brands fa-js" title="TypeScript"></i>
+          <i class="fa-brands fa-node-js" title="Expo"></i>
+          <i class="fa-solid fa-database" title="MySQL / Prisma"></i>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- HARD SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2>Competências técnicas</h2>
+
+      <!-- Frontend -->
+      <div class="skills-item">
+        <h3>Frontend</h3>
+        <p>Trabalho com desenvolvimento de interfaces web utilizando HTML5 e CSS3, criando layouts responsivos e
+          interativos.</p>
+        <div class="tech-icons">
+          <i class="fa-brands fa-html5" title="HTML5"></i>
+          <i class="fa-brands fa-css3-alt" title="CSS3"></i>
+        </div>
+      </div>
+
+      <!-- Backend -->
+      <div class="skills-item">
+        <h3>Backend</h3>
+        <p>Desenvolvimento de aplicações server-side, APIs e lógica de negócio, utilizando Python, Node.js e Django.</p>
+        <div class="tech-icons">
+          <i class="fa-brands fa-python" title="Python"></i>
+          <i class="fa-brands fa-node-js" title="Node.js"></i>
+          <i class="fa-brands fa-js" title="JavaScript / TypeScript"></i>
+          <i class="fa-brands fa-java" title="Java"></i>
+          <i class="fa-brands fa-django" title="Django"></i>
+        </div>
+      </div>
+
+      <!-- APIs & Integrações -->
+      <div class="skills-item">
+        <h3>APIs & Integrações</h3>
+        <p>Experiência em integração de serviços externos, APIs REST e autenticação com JWT. Testes de rotas realizados
+          no Insomnia.</p>
+        <div class="tech-icons">
+          <i class="fa-solid fa-server" title="APIs / Backend"></i>
+          <i class="fa-solid fa-key" title="JWT / Autenticação"></i>
+          <i class="fa-solid fa-vial" title="Testes (Insomnia)"></i>
+        </div>
+      </div>
+
+      <!-- Mobile -->
+      <div class="skills-item">
+        <h3>Mobile</h3>
+        <p>Desenvolvimento de aplicativos móveis usando React Native e Expo, criando soluções multiplataforma.</p>
+        <div class="tech-icons">
+          <i class="fa-brands fa-react" title="React Native"></i>
+          <i class="fa-brands fa-js" title="Expo / JavaScript"></i>
+        </div>
+      </div>
+
+      <!-- Banco de Dados -->
+      <div class="skills-item">
+        <h3>Banco de Dados</h3>
+        <p>Conhecimento em modelagem e manipulação de dados, utilizando principalmente MySQL.</p>
+        <div class="tech-icons">
+          <i class="fa-solid fa-database" title="MySQL"></i>
+        </div>
+      </div>
+
+      <!-- Ferramentas & DevOps -->
+      <div class="skills-item">
+        <h3>Ferramentas & DevOps</h3>
+        <p>Uso de Git, GitHub e Docker para versionamento, controle de ambientes e deploy de aplicações.</p>
+        <div class="tech-icons">
+          <i class="fa-brands fa-git" title="Git"></i>
+          <i class="fa-brands fa-github" title="GitHub"></i>
+          <i class="fa-brands fa-docker" title="Docker"></i>
+        </div>
+      </div>
+
+      <!-- Automação & No-code -->
+      <div class="skills-item">
+        <h3>Automação & No-code</h3>
+        <p>Criação de automações e aplicações sem código com ferramentas como n8n, Bubble, FlutterFlow e Supabase.</p>
+        <div class="tech-icons">
+          <i class="fa-solid fa-gears" title="Automação / n8n"></i>
+          <i class="fa-solid fa-cubes" title="Bubble / FlutterFlow"></i>
+          <i class="fa-solid fa-database" title="Supabase"></i>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-content">
+      <p>© 2025 Breno</p>
+      <div class="footer-links">
+        <a href="https://github.com/brenofk" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
+          title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
+          title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <a href="/assets/curriculo.pdf" download class="download-btn" aria-label="Baixar currículo" title="Baixar CV">
+          <i class="fas fa-download"></i> Currículo
+        </a>
+
+
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
